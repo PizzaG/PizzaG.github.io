@@ -1,3 +1,3 @@
 # Official A-Team Website
 
-https://PizzaG.github.io
+https://a-team.androidacy.com
