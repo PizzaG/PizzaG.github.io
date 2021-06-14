@@ -768,3 +768,47 @@ ul,ol,pre,blockquote {
 	top: 0;
 	left: -2400px;
 }
+
+.topnav1 {
+	display: -webkit-flex;
+	-webkit-flex-wrap: wrap;
+	-webkit-align-items: left;
+	-webkit-justify-content: space-between;
+    overflow: hidden;
+}
+
+.topnav1 a {
+    float: left;
+    color: white;
+    text-align: center;
+	padding: 0.25rem 0.75rem;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.topnav {
+	display: -webkit-flex;
+	-webkit-flex-wrap: wrap;
+	-webkit-align-items: right;
+	-webkit-justify-content: space-between;
+	overflow: hidden;
+}
+
+.topnav a {
+    float: right;
+    color: white;
+    text-align: center;
+    padding: 0.25rem 0.75rem;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.topnav a:hover {
+    background-color: #55aaff;
+    color: light-blue;
+}
+
+.topnav a.active {
+    background-color: #55007f;
+    color: purple;
+}
