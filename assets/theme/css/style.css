@@ -809,6 +809,6 @@ ul,ol,pre,blockquote {
 }
 
 .topnav a.active {
-    background-color: #55007f;
-    color: purple;
+    background-color: #aa0000;
+    color: red;
 }
