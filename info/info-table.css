@@ -43,9 +43,25 @@ header.infoHeader hh {
     border-bottom: 3px solid #0F0E52;
 }
 #demo {
-background-image: url("../assets/images/logo-c.png");
+background-image: url("../assets/images/logo-c2.png");
     background-size: 100%;
 }
 #demo {
  padding: 30px 10px;
+}
+#titlec {
+background: #1C6EA4;
+background: -moz-linear-gradient(left, #1C6EA4 0%, #2388CB 14%, #181357 100%);
+background: -webkit-linear-gradient(left, #1C6EA4 0%, #2388CB 14%, #181357 100%);
+background: linear-gradient(to right, #1C6EA4 0%, #2388CB 14%, #181357 100%);
+}
+#titlec {
+  min-height: 150px;
+  text-align: center;
+}
+#wrapc {
+background: rgba(0,123,255,0.68);
+}
+#wrapc {
+ padding: 50px 20px;
 }
