@@ -1,0 +1,51 @@
+table.infoTable {
+  font-family: "Times New Roman", Times, serif;
+  border: 1px solid #0047E6;
+  background-color: #1930EE;
+  width: 54%;
+  height: 80%;
+  text-align: left;
+  border-collapse: collapse;
+}
+table.infoTable td, table.infoTable th {
+  border: 1px solid #AAAAAA;
+  padding: 3px 2px;
+}
+table.infoTable tbody td {
+  font-size: 26px;
+  color: #FBFBFB;
+}
+table.infoTable tr:nth-child(even) {
+  background: #04046f;
+}
+table.infoTable thead {
+  background: #0A35A4;
+  background: -moz-linear-gradient(top, #4767bb 0%, #2249ad 66%, #0A35A4 100%);
+  background: -webkit-linear-gradient(top, #4767bb 0%, #2249ad 66%, #0A35A4 100%);
+  background: linear-gradient(to bottom, #4767bb 0%, #2249ad 66%, #0A35A4 100%);
+  border-bottom: 3px solid #0F0E52;
+}
+table.infoTable thead th {
+  font-size: 24px;
+  font-weight: bold;
+  color: #FFFFFF;
+  text-align: center;
+  border-left: 3px solid #101A6D;
+}
+table.infoTable thead th:first-child {
+  border-left: none;
+}
+header.infoHeader hh {
+    background: #0A35A4;
+    background: -moz-linear-gradient(top, #4767bb 0%, #2249ad 66%, #0A35A4 100%);
+    background: -webkit-linear-gradient(top, #4767bb 0%, #2249ad 66%, #0A35A4 100%);
+    background: linear-gradient(to bottom, #4767bb 0%, #2249ad 66%, #0A35A4 100%);
+    border-bottom: 3px solid #0F0E52;
+}
+#demo {
+background-image: url("../assets/images/logo-c.png");
+    background-size: 100%;
+}
+#demo {
+ padding: 30px 10px;
+}
